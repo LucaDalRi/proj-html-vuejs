@@ -69,6 +69,7 @@ export default {
   height: 800px;
   display: flex;
   position: relative;
+  margin-bottom: 50px;
 
   img {
     width: 100%;

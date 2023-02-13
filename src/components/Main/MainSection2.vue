@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'HeaderApp',
+  name: 'MainSection2',
 }
 </script>
 
