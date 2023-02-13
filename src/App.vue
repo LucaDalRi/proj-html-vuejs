@@ -1,17 +1,17 @@
 <script>
-import NomeApp from './components/HelloWorld.vue';
+import HeaderApp from './components/Header/HeaderApp.vue';
 
 export default {
   name: "App",
   components: {
-    NomeApp,
+    HeaderApp,
   }
 };
 </script>
 
 <template>
 
-  <NomeApp />
+  <HeaderApp />
 
 </template>
 
