@@ -1,19 +1,132 @@
 <script>
+import { store } from '../Store/store.js';
+
 export default {
-  name: 'HeaderApp',
+  name: 'JumbotronApp',
+
+  data() {
+    return {
+      store,
+      activeImg: 0,
+    }
+  },
+
+  methods: {
+
+    leftClick() {
+      this.activeImg--;
+      if (this.activeImg < 0) {
+        this.activeImg = 1
+      }
+    },
+
+    rightClick() {
+      this.activeImg++;
+      if (this.activeImg > 1) {
+        this.activeImg = 0
+      }
+    }
+
+  }
 }
 </script>
 
 <template>
 
-  <div>
-    <h1>
-      Prova!
-    </h1>
+  <div class="containerJumbotron">
+    <img :src="store.imgCarosello[activeImg].img" alt="Jumbotron Cars">
+    <div class="arrow left" @click="leftClick()">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <div class="arrow right" @click="rightClick()">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div id="textJumbotron">
+      <div>
+        <h1>
+          Buy And Sell Your Car At Its Value
+        </h1>
+      </div>
+      <div>
+        <h2>
+          Find the right price and dealer
+        </h2>
+      </div>
+      <div class="buttonBlack">
+        <button>
+          Learn More
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
   </div>
 
 </template>
 
 <style lang="scss" scoped>
 
-</style>
+.containerJumbotron {
+  height: 800px;
+  display: flex;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .arrow {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      font-size: 1.9rem;
+    }
+  }
+
+  .right {
+    right: 2%;
+  }
+
+  .left {
+    left: 2%;
+  }
+}
+
+#textJumbotron {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  width: 400px;
+  height: 250px;
+  color: white;
+
+  h1, h2{
+    padding-bottom: 30px;
+  }
+
+  h1{
+    font-size: 2.3em;
+  }
+
+}
+
+.buttonBlack {
+  height: 30%;
+   button{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    padding: 0;
+   }
+}
+</style> 

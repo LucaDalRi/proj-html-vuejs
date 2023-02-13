@@ -93,32 +93,11 @@ export default {
         }
       }
     }
-
-    .buttonBlack {
-      height: 100%;
-
-      button {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        background-color: black;
-        color: white;
-        padding: 0 10px 0 10px;
-        font-size: 1.3em;
-        border-radius: 6px;
-
-        img {
-          height: 60%;
-          filter: invert(100%);
-          margin-right: 5px;
-        }
-      }
-    }
-
     #iconHeader {
       font-size: 2rem;
       margin: 0px 20px 0 20px;
     }
   }
+
 }
 </style>
