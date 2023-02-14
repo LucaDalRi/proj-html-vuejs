@@ -20,6 +20,7 @@ export default {
   <MainSection1 />
   <MainSection2 />
   <MainSection3 />
+  <MainSection4 />
 
 </template>
 
