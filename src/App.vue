@@ -27,8 +27,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 0 10px 0 10px;
     font-size: 1.3em;
     border-radius: 6px;

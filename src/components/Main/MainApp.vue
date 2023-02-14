@@ -18,9 +18,8 @@ export default {
 <template>
 
   <MainSection1 />
-  <!-- <MainSection2 />
+  <MainSection2 />
   <MainSection3 />
-  <MainSection4 /> -->
 
 </template>
 

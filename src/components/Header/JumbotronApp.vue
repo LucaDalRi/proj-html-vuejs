@@ -81,8 +81,8 @@ export default {
     width: 60px;
     height: 60px;
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #aaaaaa;
     top: 45%;
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@ export default {
   top: 40%;
   width: 400px;
   height: 250px;
-  color: white;
+  color: #ffffff;
 
   h1, h2{
     padding-bottom: 30px;

@@ -127,19 +127,15 @@ export default {
       <button>
         <span>
           Show All Cars
-        </span> 
+        </span>
         <i class="fa-solid fa-arrow-right"></i>
-        </button>
+      </button>
     </div>
   </div>
 
 </template>
 
 <style lang="scss" scoped>
-// * {
-//   border: 2px dashed red;
-// }
-
 .containerPrincipale {
   width: 80%;
   margin: 0 auto;
@@ -197,7 +193,7 @@ export default {
         height: 15%;
         text-align: center;
         font-size: 1.2em;
-        color: gray;
+        color: #aaaaaa;
       }
     }
   }
@@ -247,16 +243,16 @@ export default {
     }
   }
 
-  .buttonBlack{
+  .buttonBlack {
     display: flex;
     justify-content: center;
 
-    button{
+    button {
       height: 70px;
       width: 220px;
       font-size: 1.1em;
 
-      span{
+      span {
         margin-right: 10px;
       }
     }

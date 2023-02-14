@@ -86,7 +86,7 @@ export default {
 
           a {
             text-decoration: none;
-            color: black;
+            color: #000000;
             font-size: 1.2rem;
             font-weight: bold;
           }
