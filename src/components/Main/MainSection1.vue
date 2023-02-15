@@ -128,7 +128,7 @@ export default {
         <span>
           Show All Cars
         </span>
-        <i class="fa-solid fa-arrow-right"></i>
+        <font-awesome-icon icon="fa-solid fa-arrow-right" />
       </button>
     </div>
   </div>

@@ -1,4 +1,6 @@
 <script>
+
+
 export default {
   name: 'FooterApp',
 }
@@ -13,14 +15,14 @@ export default {
           <img src="../../assets/logo-footer-autocar11.png" alt="Logo Footer">
         </div>
         <div class="containerInfo">
-          <p><i class="fa-solid fa-location-dot"></i><a href="#">New Jersey, USA</a></p>
-          <p><i class="fa-solid fa-phone-volume"></i><a href="#">+1 (234) 567 89 10</a></p>
-          <p><i class="fa-solid fa-envelope"></i><a href="mailto:#">example@example.com</a></p>
+          <p><a href="#"><font-awesome-icon icon="fa-solid fa-location-dot" /> New Jersey, USA</a></p>
+          <p><a href="#"><font-awesome-icon icon="fa-solid fa-phone-volume" /> +1 (234) 567 89 10</a></p>
+          <p><a href="mailto:#"><font-awesome-icon icon="fa-solid fa-envelope" /> example@example.com</a></p>
         </div>
         <div class="socialIcon">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
+          <a href="#"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+          <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
         </div>
       </div>
       <div class="newsletter">
@@ -104,10 +106,10 @@ export default {
           padding-top: 15px;
         }
 
-        i {
+        a {
           vertical-align: middle;
           margin-right: 15px;
-          font-size: 1.3em;
+          font-size: 1.1em;
         }
       }
     }
@@ -195,7 +197,7 @@ export default {
       align-items: center;
       color: rgb(221, 220, 220);
 
-      i {
+      a {
         margin-right: 30px;
         padding: 0px 15px;
         font-size: 2.5em;

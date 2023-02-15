@@ -47,10 +47,10 @@ export default {
   <div class="containerJumbotron">
     <img :src="store.imgCarosello[activeImg].img" alt="Jumbotron Cars">
     <div class="arrow left" @click="leftClick()">
-      <i class="fa-solid fa-chevron-left"></i>
+      <font-awesome-icon icon="fa-solid fa-chevron-left" />
     </div>
     <div class="arrow right" @click="rightClick()">
-      <i class="fa-solid fa-chevron-right"></i>
+      <font-awesome-icon icon="fa-solid fa-chevron-right" />
     </div>
     <div id="textJumbotron">
       <div>
@@ -66,7 +66,7 @@ export default {
       <div class="buttonBlack">
         <button>
           Learn More
-          <i class="fa-solid fa-arrow-right"></i>
+          <font-awesome-icon icon="fa-solid fa-arrow-right" />
         </button>
       </div>
     </div>
@@ -75,7 +75,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
 .containerJumbotron {
   height: 800px;
   display: flex;
@@ -98,10 +97,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    i {
-      font-size: 1.9rem;
-    }
+    font-size: 1.4rem;
   }
 
   .right {
@@ -121,11 +117,12 @@ export default {
   height: 250px;
   color: #ffffff;
 
-  h1, h2{
+  h1,
+  h2 {
     padding-bottom: 30px;
   }
 
-  h1{
+  h1 {
     font-size: 2.3em;
   }
 
@@ -133,7 +130,8 @@ export default {
 
 .buttonBlack {
   height: 30%;
-   button{
+
+  button {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -141,6 +139,6 @@ export default {
     border: none;
     padding: 0;
     background-color: rgba(0, 0, 0, 0.493);
-   }
+  }
 }
 </style> 

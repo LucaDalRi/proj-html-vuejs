@@ -63,7 +63,7 @@ export default {
         </div>
       </div>
       <div class="buttonBlack">
-        <button>Get to know us <i class="fa-solid fa-arrow-right"></i></button>
+        <button>Get to know us  <font-awesome-icon icon="fa-solid fa-arrow-right" /></button>
       </div>
     </div>
   </div>
