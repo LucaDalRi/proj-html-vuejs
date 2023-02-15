@@ -1,12 +1,14 @@
 <script>
 import HeaderApp from './components/Header/HeaderApp.vue';
 import MainApp from './components/Main/MainApp.vue';
+import FooterApp from './components/Footer/FooterApp.vue';
 
 export default {
   name: "App",
   components: {
     HeaderApp,
     MainApp,
+    FooterApp,
   }
 };
 </script>
@@ -15,6 +17,7 @@ export default {
 
   <HeaderApp />
   <MainApp />
+  <FooterApp />
 
 </template>
 

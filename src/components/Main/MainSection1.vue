@@ -156,9 +156,11 @@ export default {
     }
 
     input,
-    select {
+    select,
+    option {
       background-color: white;
       border: 1px solid lightgray;
+      color: gray;
     }
 
     button {

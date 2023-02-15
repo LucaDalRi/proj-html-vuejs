@@ -26,7 +26,7 @@ export default {
           <img src="../../assets/news-autocar-1-373x223.jpg" alt="">
         </div>
         <p>
-          06.07.2022
+          06.07.2022 - Auto Car
         </p>
         <h2>
           Why is BMW loved ?
@@ -47,7 +47,7 @@ export default {
           <img src="../../assets/news-autocar-2-373x223.jpg" alt="">
         </div>
         <p>
-          06.07.2022
+          06.07.2022 - Auto Car
         </p>
         <h2>
           How solid is Audi ?
@@ -68,7 +68,7 @@ export default {
           <img src="../../assets/news-autocar-6-373x223.jpg" alt="">
         </div>
         <p>
-          06.07.2022
+          06.07.2022 - Auto Car
         </p>
         <h2>
           What brand is Skoda ?
@@ -89,7 +89,7 @@ export default {
           <img src="../../assets/news-autocar-5-373x223.jpg" alt="">
         </div>
         <p>
-          06.07.2022
+          06.07.2022 - Auto Car
         </p>
         <h2>
           Is the Auris diesel ?
