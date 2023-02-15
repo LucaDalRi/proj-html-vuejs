@@ -34,35 +34,35 @@ export default {
       </div>
       <div class="card">
         <p>
-          We are a gallet vehicle dealer. Before we met this site, our sales were sluggish.
+          One of the quality website i apply to rent a car. There are hundreds of different tools.
         </p>
         <div class="imgComments">
           <img src="../../assets/man2.png" alt="">
         </div>
         <p>
-          Adam
+          Mara
         </p>
       </div>
       <div class="card">
         <p>
-          We are a gallet vehicle dealer. Before we met this site, our sales were sluggish.
+          I was trying to sell my car. And i put it here and sold it for more than it was worth.
         </p>
         <div class="imgComments">
           <img src="../../assets/testimonial2-1.png" alt="">
         </div>
         <p>
-          Adam
+          Robert
         </p>
       </div>
       <div class="card">
         <p>
-          We are a gallet vehicle dealer. Before we met this site, our sales were sluggish.
+          A fast and reliable vehicle selling site. Rare qualiti website with hundred of model vehicles.
         </p>
         <div class="imgComments">
           <img src="../../assets/testimonial4-1.png" alt="">
         </div>
         <p>
-          Adam
+          Elizabeth
         </p>
       </div>
     </div>
@@ -106,7 +106,7 @@ export default {
     .card {
       width: 25%;
       background-color: #ffffff;
-      padding: 60px 40px;
+      padding: 60px 30px;
       line-height: 30px;
       font-size: 1.2rem;
       color: #474747;
