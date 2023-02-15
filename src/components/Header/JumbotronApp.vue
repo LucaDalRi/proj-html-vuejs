@@ -27,6 +27,17 @@ export default {
       }
     }
 
+  },
+
+  mounted() {
+
+    setInterval(() => {
+      this.activeImg--;
+      if (this.activeImg < 0) {
+        this.activeImg = 1
+      }
+    }, 5000);
+
   }
 }
 </script>

@@ -13,14 +13,14 @@ export default {
           <img src="../../assets/logo-footer-autocar11.png" alt="Logo Footer">
         </div>
         <div class="containerInfo">
-          <p><i class="fa-solid fa-location-dot"></i>New Jersey, USA</p>
-          <p><i class="fa-solid fa-phone-volume"></i> +1 (234) 567 89 10</p>
-          <p><i class="fa-solid fa-envelope"></i> example@example.com</p>
+          <p><i class="fa-solid fa-location-dot"></i><a href="#">New Jersey, USA</a></p>
+          <p><i class="fa-solid fa-phone-volume"></i><a href="#">+1 (234) 567 89 10</a></p>
+          <p><i class="fa-solid fa-envelope"></i><a href="mailto:#">example@example.com</a></p>
         </div>
         <div class="socialIcon">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
       <div class="newsletter">
@@ -40,11 +40,11 @@ export default {
           My Account
         </h2>
         <ul>
-          <li>My Account</li>
-          <li>Checkuot</li>
-          <li>Cart</li>
-          <li>Packages</li>
-          <li>Add Car</li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Checkuot</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Add Car</a></li>
         </ul>
       </div>
       <div class="quicklinks">
@@ -52,11 +52,11 @@ export default {
           Quick Links
         </h2>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>Refound & Returns</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Refound & Returns</a></li>
         </ul>
       </div>
     </div>

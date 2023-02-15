@@ -104,7 +104,7 @@ export default {
     margin-top: 30px;
 
     .card {
-      width: calc(100% / 4);
+      width: 25%;
       background-color: #ffffff;
       padding: 60px 40px;
       line-height: 30px;

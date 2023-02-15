@@ -160,7 +160,7 @@ export default {
     option {
       background-color: white;
       border: 1px solid lightgray;
-      color: gray;
+      color: rgb(128, 124, 124);
     }
 
     button {

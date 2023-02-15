@@ -22,25 +22,17 @@ export default {
 </template>
 
 <style lang="scss">
-.buttonBlack {
+button {
   height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  font-size: 1.3em;
+  border-radius: 6px;
+}
 
-  button {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 0 10px 0 10px;
-    font-size: 1.3em;
-    border-radius: 6px;
-
-    img {
-      height: 60%;
-      filter: invert(100%);
-      margin-right: 5px;
-    }
-  }
+a {
+  text-decoration: none;
+  color: unset;
 }
 </style>

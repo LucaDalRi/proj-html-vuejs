@@ -85,7 +85,6 @@ export default {
           margin: 7px;
 
           a {
-            text-decoration: none;
             color: #000000;
             font-size: 1.2rem;
             font-weight: bold;
@@ -93,11 +92,28 @@ export default {
         }
       }
     }
+
+    .buttonBlack {
+      height: 100%;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      img {
+        height: 60%;
+        filter: invert(100%);
+        margin-right: 5px;
+      }
+    }
+
+
     #iconHeader {
       font-size: 2rem;
       margin: 0px 20px 0 20px;
     }
   }
-
 }
 </style>

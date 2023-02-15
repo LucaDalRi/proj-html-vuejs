@@ -140,12 +140,12 @@ export default {
     .buttonBlack {
       height: 80px;
       margin-top: 30px;
-      
-      button{
+
+      button {
         padding: 0px 30px;
         font-size: 1.1em;
 
-        i{
+        i {
           margin-left: 10px;
         }
       }

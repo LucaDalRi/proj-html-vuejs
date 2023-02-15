@@ -1,5 +1,5 @@
 <script>
-import HeaderSection1 from './HeaderSection1.vue'
+import HeaderSection1 from './HeaderSection1.vue';
 import JumbotronApp from './JumbotronApp.vue';
 
 export default {
