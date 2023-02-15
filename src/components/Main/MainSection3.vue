@@ -40,7 +40,7 @@ export default {
           <img src="../../assets/man2.png" alt="">
         </div>
         <p>
-          Mara
+          Robert
         </p>
       </div>
       <div class="card">
@@ -51,7 +51,7 @@ export default {
           <img src="../../assets/testimonial2-1.png" alt="">
         </div>
         <p>
-          Robert
+          Mara
         </p>
       </div>
       <div class="card">

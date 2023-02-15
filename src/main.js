@@ -13,6 +13,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 library.add(
@@ -25,7 +26,8 @@ library.add(
     faEnvelope,
     faArrowRight,
     faChevronLeft,
-    faChevronRight
+    faChevronRight,
+    faBars
     )
 
 

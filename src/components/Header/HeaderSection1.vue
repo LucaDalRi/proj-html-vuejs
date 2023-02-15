@@ -35,7 +35,7 @@ export default {
         </button>
       </div>
       <div id="iconHeader">
-        <i class="fa-solid fa-bars"></i>
+        <font-awesome-icon icon="fa-solid fa-bars" />
       </div>
       <div class="buttonBlack">
         <button>
