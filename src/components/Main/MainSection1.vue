@@ -101,21 +101,21 @@ export default {
     <div class="containerCarsCards">
       <div class="carCard" v-for="(car, i) in store.cars">
         <div class="carImg">
-          <img :src="store.cars[i][0].immagine" alt="">
+          <img :src="store.cars[i].immagine" alt="">
         </div>
         <div class="carInfo1">
-          <p>{{ store.cars[i][0].nome }} <i class="fa-solid fa-circle-check"></i></p>
-          <p>{{ store.cars[i][0].categoria }}</p>
+          <p>{{ store.cars[i].nome }} <i class="fa-solid fa-circle-check"></i></p>
+          <p>{{ store.cars[i].categoria }}</p>
         </div>
         <div class="carInfo2">
           <span>
-            <i class="fa-solid fa-dollar-sign"></i> {{ store.cars[i][0].costo }}
+            <i class="fa-solid fa-dollar-sign"></i> {{ store.cars[i].costo }}
           </span>
           <span>
-            <i class="fa-solid fa-car"></i> {{ store.cars[i][0].brand }}
+            <i class="fa-solid fa-car"></i> {{ store.cars[i].brand }}
           </span>
           <span>
-            <i class="fa-solid fa-gas-pump"></i> {{ store.cars[i][0].alimentazione }}
+            <i class="fa-solid fa-gas-pump"></i> {{ store.cars[i].alimentazione }}
           </span>
           <span>
             <i class="fa-solid fa-heart"></i>
