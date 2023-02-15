@@ -13,78 +13,199 @@ export default {
           <img src="../../assets/logo-footer-autocar11.png" alt="Logo Footer">
         </div>
         <div class="containerInfo">
-          <p><i class="fa-solid fa-location-dot"></i>New Jersey, USA</p>  
+          <p><i class="fa-solid fa-location-dot"></i>New Jersey, USA</p>
           <p><i class="fa-solid fa-phone-volume"></i> +1 (234) 567 89 10</p>
           <p><i class="fa-solid fa-envelope"></i> example@example.com</p>
         </div>
         <div class="socialIcon">
-
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
         </div>
       </div>
       <div class="newsletter">
-
+        <h2>
+          Join Our newsletter
+        </h2>
+        <p>
+          Subscribe to be informed about our service and products.
+        </p>
+        <div class="containerEmail">
+          <input type="email" id="emailNewsletter" placeholder="Your Email Here">
+          <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </div>
       <div class="myAccount">
-
+        <h2>
+          My Account
+        </h2>
+        <ul>
+          <li>My Account</li>
+          <li>Checkuot</li>
+          <li>Cart</li>
+          <li>Packages</li>
+          <li>Add Car</li>
+        </ul>
       </div>
       <div class="quicklinks">
-
+        <h2>
+          Quick Links
+        </h2>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>Refound & Returns</li>
+        </ul>
       </div>
+    </div>
+    <div class="credits">
+      <p>
+        © 2023 Autocar - All Rights Reserved.
+      </p>
     </div>
   </div>
 
 </template>
 
 <style lang="scss" scoped>
-
-*{
-  border: 2px dashed red;
-}
-
-.containerFooter{
+.containerFooter {
   height: 550px;
   background-color: #000000;
   color: white;
   padding-top: 60px;
 
-  .containerPrincipale{
+  .containerPrincipale {
     width: 80%;
     height: 80%;
     margin: 0 auto;
     display: flex;
-  
-    .logoInfo{
+
+    .logoInfo {
       height: 100%;
       width: 25%;
 
-      .containerLogo{
+      .containerLogo {
         height: 30%;
 
-        img{
+        img {
           height: 100%;
         }
       }
 
-      .containerInfo{
+      .containerInfo {
         height: 50%;
+        color: rgb(221, 220, 220);
+
+        p {
+          height: 35%;
+          font-size: 1.3em;
+          padding-top: 15px;
+        }
+
+        i {
+          vertical-align: middle;
+          margin-right: 15px;
+          font-size: 1.3em;
+        }
       }
     }
 
-    .newsletter{
+    .newsletter {
       height: 100%;
       width: 35%;
+
+      h2 {
+        font-size: 2em;
+        margin: 15px 0px;
+      }
+
+      p {
+        font-size: 1.2em;
+        color: rgb(221, 220, 220);
+
+      }
+
+      .containerEmail {
+        height: 50%;
+        margin-top: 40px;
+
+        input {
+          width: 90%;
+          height: 70px;
+          padding-left: 40px;
+          font-size: 1.1em;
+        }
+
+        button {
+          width: 90%;
+          margin-top: 10px;
+          height: 70px;
+          background-color: white;
+          color: gray;
+          font-size: 1.2em;
+        }
+      }
     }
 
-    .myAccount{
+    .myAccount {
       height: 100%;
       width: 20%;
+      padding: 15px 30px;
+
+      h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style-type: square;
+        padding-left: 15px;
+
+        li {
+          padding: 8px 0px;
+        }
+      }
     }
 
-    .quicklinks{
+    .quicklinks {
       height: 100%;
       width: 20%;
+      padding: 15px 30px;
+
+      h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style-type: square;
+        padding-left: 15px;
+
+        li {
+          padding: 8px 0px;
+        }
+      }
+    }
+
+    .socialIcon {
+      height: 20%;
+      display: flex;
+      align-items: center;
+      color: rgb(221, 220, 220);
+
+      i {
+        margin-right: 30px;
+        padding: 0px 15px;
+        font-size: 2.5em;
+      }
     }
   }
-}
 
+  .credits {
+    text-align: center;
+    padding: 30px 0px;
+  }
+}
 </style>
