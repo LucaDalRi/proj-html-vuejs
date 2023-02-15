@@ -8,6 +8,12 @@ export const store = reactive({
         {
             img: 'src/assets/slider-autocar-6.jpg',
         },
+        {
+            img: 'src/assets/slider-autocar-7.jpg',
+        },
+        {
+            img: 'src/assets/slider-autocar-8.jpg',
+        }
     ],
 
     cars: [

@@ -16,13 +16,13 @@ export default {
     leftClick() {
       this.activeImg--;
       if (this.activeImg < 0) {
-        this.activeImg = 1
+        this.activeImg = 3
       }
     },
 
     rightClick() {
       this.activeImg++;
-      if (this.activeImg > 1) {
+      if (this.activeImg > 3) {
         this.activeImg = 0
       }
     }
@@ -34,7 +34,7 @@ export default {
     setInterval(() => {
       this.activeImg--;
       if (this.activeImg < 0) {
-        this.activeImg = 1
+        this.activeImg = 3
       }
     }, 5000);
 
@@ -137,8 +137,10 @@ export default {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border: none;
     padding: 0;
+    background-color: rgba(0, 0, 0, 0.493);
    }
 }
 </style> 
